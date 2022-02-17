@@ -15,8 +15,8 @@ using SafeMath for uint;
     address private owner;
     address private constant pancakeFactory = 0xBCfCcbde45cE874adCB698cC183deBcF17952812;
     address private constant bakeryRouter = 0xCDe540d7eAFE93aC5fE6233Bee57E1270D3E330F;
-    address token0 = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
-    address token1 = 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56;
+    address token1 = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
+    address token0 = 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56;
 
   constructor(address _pancakeFactory, address _bakeryRouter) public {
     pancakeFactory = _pancakeFactory;  
