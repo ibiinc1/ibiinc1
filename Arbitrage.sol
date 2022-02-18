@@ -5,7 +5,7 @@ import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router
 import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Pair.sol";
 import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Factory.sol";
 import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IERC20.sol";
-import "https://github.com/ibiinc1/ibiinc1/blob/main/Arbitrage.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/Arbi.sol";
 import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router01.sol";
 
  contract Arbitrage {
