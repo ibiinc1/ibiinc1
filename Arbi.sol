@@ -1,6 +1,6 @@
 pragma solidity ^0.6.6;
 
-contract Arbitrage {
+contract Arbi {
 using SafeMath for uint;
 
     address private owner;
