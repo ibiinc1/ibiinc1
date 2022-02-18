@@ -1,11 +1,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 
-import './UniswapV2Library.sol';
-import './IUniswapV2Router02.sol';
-import './IUniswapV2Pair.sol';
-import './IUniswapV2Factory.sol';
-import './IERC20.sol';
-import  './demo.sol';
+import "https://github.com/ibiinc1/ibiinc1/blob/main/UniswapV2Library.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router02.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Pair.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Factory.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IERC20.sol";
 import "https://github.com/ibiinc1/ibiinc1/blob/main/Arbitrage.sol";
 import "https://github.com/ibiinc1/ibiinc1/blob/main/interfaces/IUniswapV2Router01.sol";
 
