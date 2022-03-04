@@ -2,9 +2,9 @@
 
 pragma solidity >=0.5.0;
 
-import "./IERC20.sol";
-import "./SafeMath.sol";
-import "./Address.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/utils/IERC20.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/utils/SafeMath.sol";
+import "https://github.com/ibiinc1/ibiinc1/blob/main/utils/Address.sol";
 
 /**
  * @title SafeERC20
