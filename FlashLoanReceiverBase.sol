@@ -17,7 +17,7 @@ contract FlashLoanReceiverBase is IFlashLoanReceiver {
     
     address public constant BNB_ADDRESS = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
 
-    function() external payable {}
+    receive() external payable {}
 
     function transferFundsBackToPoolInternal(address _reserve, uint256 _amount)
         internal
