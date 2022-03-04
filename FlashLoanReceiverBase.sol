@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity >=0.5.0;
-import "../utils/SafeMath.sol";
-import "../utils/IERC20.sol";
-import "../utils/SafeERC20.sol";
-import "../interfaces/IFlashLoanReceiver.sol";
-import "../interfaces/ILendingPoolAddressesProvider.sol";
+import "./utils/SafeMath.sol";
+import "./utils/IERC20.sol";
+import "./utils/SafeERC20.sol";
+import "./interfaces/IFlashLoanReceiver.sol";
+import "./interfaces/ILendingPoolAddressesProvider.sol";
 
 contract FlashLoanReceiverBase is IFlashLoanReceiver {
     using SafeERC20 for IERC20;
